@@ -55,9 +55,9 @@ function NewCommentForm({ place, onSubmit }) {
             <div className="row">
                 <div className="form-group col-sm-4">
                     <label htmlFor="state">Author</label>
-                    <select className="form-control" value={comment.authorId} onChange={e => setComment({ ...comment, authorId: e.target.value })}>
-                        {authorOptions}
-                    </select>
+                    {/*<select className="form-control" value={comment.authorId} onChange={e => setComment({ ...comment, authorId: e.target.value })}>*/}
+                    {/*    {authorOptions}*/}
+                    {/*</select>*/}
                 </div>
                 <div className="form-group col-sm-4">
                     <label htmlFor="stars">Star Rating</label>
